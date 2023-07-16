@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login || Kashan Adnan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Login Account</h1>
+        <div class="inputs">
+            <div class="input-label">
+                <label for="email">Email :</label>
+                <input type="text" placeholder="@mail.com" id="email">
+            </div>
+            <div class="input-label">
+                <label for="password">Password :</label>
+                <input type="text" minlength="6" placeholder="............." id="password">
+            </div>
+            <div class="flex">
+                <p>Don't Have an Account <a href="../signUp/index.html">SignUp</a> ?</p>
+                <div class="login-shortcut">
+                    <button class="google">
+                        <i class="fa-brands fa-google"></i>
+                    </button>
+                    <button class="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button type="submit" onclick="loginUser()">Login</button>
+
+    </div>
+
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
